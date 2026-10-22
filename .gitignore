@@ -1,0 +1,23 @@
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Temporary files and backups
+*.bak
+*.tmp
+consensus/network_backup.py
+
+# Local professor reference tests
+professor_tests/
+
+# Editor and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

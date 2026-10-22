@@ -1,0 +1,27 @@
+PART C - NETWORK PARTITION SIMULATION
+=======================================================
+
+1. Network partitioned
+Group A: [0, 1, 2]
+Group B: [3, 4, 5]
+
+2. Before reconnection
+Node 0: height=3, work=262144
+Node 1: height=3, work=262144
+Node 2: height=3, work=262144
+Node 3: height=5, work=393216
+Node 4: height=5, work=393216
+Node 5: height=5, work=393216
+
+3. After reconnection
+Node 0: height=5, reorgs=1, depths=[3]
+Node 1: height=5, reorgs=1, depths=[3]
+Node 2: height=5, reorgs=1, depths=[3]
+Node 3: height=5, reorgs=0, depths=[]
+Node 4: height=5, reorgs=0, depths=[]
+Node 5: height=5, reorgs=0, depths=[]
+
+All nodes agree: True
+Winning height: 5
+
+Results saved to partC_partition_results.csv

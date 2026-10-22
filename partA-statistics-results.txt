@@ -1,0 +1,13 @@
+PART A - PROOF OF WORK STATISTICS
+=============================================
+Blocks mined: 100
+Target interval: 1.000 s
+Mean interval: 0.7611 s
+Median interval: 0.5157 s
+Standard deviation: 0.8348 s
+Median / mean: 0.678
+Stdev / mean: 1.097
+
+Results saved successfully.
+partA_intervals.csv
+partA_difficulty.csv
